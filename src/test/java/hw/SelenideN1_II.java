@@ -11,7 +11,7 @@ public class SelenideN1_II {
 
 
     @Test
-    void Sn1HwTest1() {
+    void sn1HwTest1() {
          /* 1. На главной странице GitHub выберите меню Pricing
           Убедитесь что загрузилась нужная страница (например что заголовок - "Choose the plan that’s right for you."
          -> Compare Plans с помощью команды hover для Pricing.

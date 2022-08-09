@@ -15,7 +15,7 @@ public class SelenideN1_II_option {
     проверьте работает ли тест, если использовать её вместо actions()*/
 
 @Test
-    void Sn1HwTest2(){
+    void sn1HwTest2(){
     open("https://the-internet.herokuapp.com/drag_and_drop");
     $("#column-a").dragAndDropTo("#column-b");
     $("#column-a").shouldHave(Condition.text("B"));
